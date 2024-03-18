@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Toda API</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Toda API</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./price.html">Price</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./team.html">Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="first-view position-relative">
+    <img src="./images/steve-johnson-ZPOoDQc8yMw-unsplash.jpg" alt="first-view-img">
+    <div class="position-absolute top-0 left-0 w-100 h-100 d-flex align-items-center">
+      <div class="first-view__text w-100 text-center text-white">Usefull Chat API</div>
+    </div>
+  </div>
+
+  <section class="my-5">
+    <div class="product container px-3">
+      <h2>Product</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-0">
+            <img src="./illustrations/undraw_chat_bot_re_e2gj.svg" alt="chatAPI">
+            <div class="card-body">
+              <h5 class="card-title text-blue">ChatterBlast - Chat API</h5>
+              <p class="card-text">Unleash Conversational Intelligence</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img src="./illustrations/undraw_photo_re_5blb.svg" alt="chatAPI">
+            <div class="card-body">
+              <h5 class="card-title text-blue">DreamWeaver - Image Generation API</h5>
+              <p class="card-text">Transform Ideas into Visuals, Instantly</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img src="./illustrations/undraw_image_focus_re_qqxc.svg" alt="chatAPI">
+            <div class="card-body">
+              <h5 class="card-title text-blue">MindReader - Image Recognition API</h5>
+              <p class="card-text">See the World Through AI Eyes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a class="btn btn-primary" href="./product.html">See More</a>
+      </div>
+    </div>
+  </section>
+  <section class="my-5">
+    <div class="price container px-3">
+      <h2>Price</h2>
+      <div>
+        <table class="table">
+          <tr>
+            <td class="fw-bold fs-5">ChatterBlast - Chat API</td>
+            <td>$ <span class="text-danger fw-bold fs-4">0.0015</span> per second</td>
+          </tr>
+          <tr>
+            <td class="fw-bold fs-5">DreamWeaver - Image Generation API</td>
+            <td>$ <span class="text-danger fw-bold fs-4">0.0500</span> per second</td>
+          </tr>
+          <tr>
+            <td class="fw-bold fs-5">ChatterBlast - Chat API</td>
+            <td>$ <span class="text-danger fw-bold fs-4">0.0350</span> per second</td>
+          </tr>
+        </table>
+        <p>Pricing is based on usage per second.Same price for everyone, no different tiers or hidden costs.</p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a class="btn btn-primary" href="./price.html">See More</a>
+      </div>
+    </div>
+  </section>
+  <section class="my-5">
+    <div class="team container px-3">
+      <h2>Team</h2>
+      <div class="row">
+        <div class="col-4">
+          <img class="card-img" src="./images/john-mark-arnold-xbBaOa_dd5I-unsplash.jpg" alt="">
+        </div>
+        <div class="col-8">
+          <div class="fw-bold fs-3rem">John Smith</div>
+          <div class="fw-bold fs-5 text-blue">Founder & CEO</div>
+          <div>
+            <p>John is the driving force behind the company. With a deep understanding of AI's transformative potential,
+              he founded the
+              company to create solutions that make a positive impact on society. John's commitment to ethical AI and
+              his visionary
+              leadership inspire the entire team.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <a class="btn btn-primary" href="./team.html">See More</a>
+    </div>
+  </section>
+  <footer class="py-4 border-2 border-top ">
+    <div class="text-center d-flex justify-content-center">
+      <ul class="list-group list-group-flush w-50">
+        <li class="list-group-item">
+          <a class="text-secondary active" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="list-group-item">
+          <a class="text-secondary " href="./product.html">Product</a>
+        </li>
+        <li class="list-group-item">
+          <a class="text-secondary " href="./price.html">Price</a>
+        </li>
+        <li class="list-group-item">
+          <a class="text-secondary " href="./team.html">Team</a>
+        </li>
+      </ul>
+    </div>
+    <div class="text-center mt-3">
+      ©Toda API
+    </div>
+  </footer>
+</body>
+
+</html>
